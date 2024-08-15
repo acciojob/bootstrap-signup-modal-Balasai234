@@ -4,10 +4,48 @@
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
-		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+		
 	</head>
 	<body>
+		<button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+  Signup
+</button>
+		
+<div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="staticBackdropLabel">Modal title</h5>
+        
+      </div>
+		<div class="modal-body">
+        <form>
+			<div>
+		<label for="Email address" class="form-label">Email address</label>
+		<input type="email" id="Email address" placeholder="Enter email" class="form-control">
+
+		</div>
 	
+		<label for="Paaword" class="form-label">Password</label>
+		<input type="password" id="password" placeholder="Paaword" class="form-control">
+		
+		<label for="Confirm Password" class="form-label">Confirm Password</label>
+		<input type="password" id="Confirm Password" placeholder="Confirm Password" class="form-control">
+
+		</form>
+      </div>
+		<div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Understood</button>
+      </div>
+		  </div>
+  </div>
+</div>
+		
+		
+
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 	</body>
 </html>
